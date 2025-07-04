@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, Minus, Edit3, Trash2, Receipt, BarChart3, DollarSign, Clock, Users, TrendingUp } from 'lucide-react';
+//import TableGridCute from './TableGridCute';
+
+//{currentView === 'order' && <TableGridCute />}
+import 'tailwindcss/tailwind.css';
+
 
 const TewanKitchenPOS = () => {
   const [currentView, setCurrentView] = useState('order');
